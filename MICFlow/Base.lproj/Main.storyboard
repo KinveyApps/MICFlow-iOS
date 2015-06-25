@@ -21,7 +21,7 @@
             </objects>
             <point key="canvasLocation" x="-458" y="357"/>
         </scene>
-        <!--MIC Sample App-->
+        <!--MIC Flow-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="SignInViewController" customModule="MICFlow" customModuleProvider="target" sceneMemberID="viewController">
@@ -88,7 +88,7 @@
                             <constraint firstAttribute="centerY" secondItem="E9T-EN-gZ8" secondAttribute="centerY" id="xeh-Sj-Oqd"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="MIC Sample App" id="bbr-fa-wGB">
+                    <navigationItem key="navigationItem" title="MIC Flow" id="bbr-fa-wGB">
                         <barButtonItem key="backBarButtonItem" title="Back" id="g1S-Tq-L9e"/>
                     </navigationItem>
                     <connections>
