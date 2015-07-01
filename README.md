@@ -1,5 +1,8 @@
 # MICFlow-iOS
 
+This application showcases using the Mobile Identity Connect (MIC) authorization-grant login flow from Kinvey's client libraries.
+
+Mobile Identity Connect is a service that bridges mobile applications with existing enterprise identity and single sign-on solutions. MIC enables mobile applications to integrate with a variety of identity solutions using a single OAuth2-based interface. This allows enterprise application developers to avoid the complexity of integrating these protocols into mobile, while providing enterprise IT the means to ensure that access to resources is secured only to authenticated users, as well as maintaining full control over a mobile user's identity.
 
 ## Set up
 
