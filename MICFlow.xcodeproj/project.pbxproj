@@ -18,7 +18,6 @@
 		57F4F16F1B3C63F200039B2F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4F1691B3C63F200039B2F /* SignInViewController.swift */; };
 		57F4F1701B3C63F200039B2F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4F16A1B3C63F200039B2F /* WebViewController.swift */; };
 		57F4F1711B3C63F200039B2F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4F16B1B3C63F200039B2F /* WelcomeViewController.swift */; };
-		57F4F1741B3C66C700039B2F /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4F1731B3C66C700039B2F /* KinveyKit.framework */; };
 		57F4F17A1B3C674900039B2F /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4F1791B3C674900039B2F /* Accounts.framework */; };
 		57F4F17C1B3C675500039B2F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4F17B1B3C675500039B2F /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		57F4F17E1B3C676D00039B2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4F17D1B3C676D00039B2F /* CoreGraphics.framework */; };
@@ -28,6 +27,7 @@
 		57F4F1861B3C67CE00039B2F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4F1851B3C67CE00039B2F /* Security.framework */; };
 		57F4F1881B3C67D500039B2F /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4F1871B3C67D500039B2F /* Social.framework */; };
 		57F4F18A1B3C67DE00039B2F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F4F1891B3C67DE00039B2F /* SystemConfiguration.framework */; };
+		D5EEF60432197F83397C93AB /* libPods-MICFlow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 461C61B23C6D2D6560210F1D /* libPods-MICFlow.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		461C61B23C6D2D6560210F1D /* libPods-MICFlow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MICFlow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F4F1411B3C62FE00039B2F /* MICFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MICFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F4F1451B3C62FE00039B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57F4F1461B3C62FE00039B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		57F4F1691B3C63F200039B2F /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		57F4F16A1B3C63F200039B2F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		57F4F16B1B3C63F200039B2F /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		57F4F1731B3C66C700039B2F /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
 		57F4F1751B3C66DD00039B2F /* MICFlow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MICFlow-Bridging-Header.h"; sourceTree = "<group>"; };
 		57F4F1791B3C674900039B2F /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		57F4F17B1B3C675500039B2F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -67,6 +67,8 @@
 		57F4F1851B3C67CE00039B2F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		57F4F1871B3C67D500039B2F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		57F4F1891B3C67DE00039B2F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DF5DE846F9AE02DDA58AE240 /* Pods-MICFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MICFlow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MICFlow/Pods-MICFlow.debug.xcconfig"; sourceTree = "<group>"; };
+		FD80213C428E598986CE9B30 /* Pods-MICFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MICFlow.release.xcconfig"; path = "Pods/Target Support Files/Pods-MICFlow/Pods-MICFlow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F4F1741B3C66C700039B2F /* KinveyKit.framework in Frameworks */,
 				57F4F17A1B3C674900039B2F /* Accounts.framework in Frameworks */,
 				57F4F17E1B3C676D00039B2F /* CoreGraphics.framework in Frameworks */,
 				57F4F1801B3C677800039B2F /* CoreLocation.framework in Frameworks */,
@@ -84,6 +85,7 @@
 				57F4F1881B3C67D500039B2F /* Social.framework in Frameworks */,
 				57F4F18A1B3C67DE00039B2F /* SystemConfiguration.framework in Frameworks */,
 				57F4F17C1B3C675500039B2F /* WebKit.framework in Frameworks */,
+				D5EEF60432197F83397C93AB /* libPods-MICFlow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +106,7 @@
 				57F4F1721B3C66B900039B2F /* Frameworks */,
 				57F4F1591B3C62FE00039B2F /* MICFlowTests */,
 				57F4F1421B3C62FE00039B2F /* Products */,
+				C72F60703B9CF2D1036B5DBF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,7 +166,6 @@
 		57F4F1721B3C66B900039B2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				57F4F1731B3C66C700039B2F /* KinveyKit.framework */,
 				57F4F1791B3C674900039B2F /* Accounts.framework */,
 				57F4F17D1B3C676D00039B2F /* CoreGraphics.framework */,
 				57F4F17F1B3C677800039B2F /* CoreLocation.framework */,
@@ -173,8 +175,18 @@
 				57F4F1871B3C67D500039B2F /* Social.framework */,
 				57F4F1891B3C67DE00039B2F /* SystemConfiguration.framework */,
 				57F4F17B1B3C675500039B2F /* WebKit.framework */,
+				461C61B23C6D2D6560210F1D /* libPods-MICFlow.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C72F60703B9CF2D1036B5DBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF5DE846F9AE02DDA58AE240 /* Pods-MICFlow.debug.xcconfig */,
+				FD80213C428E598986CE9B30 /* Pods-MICFlow.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57F4F1601B3C62FE00039B2F /* Build configuration list for PBXNativeTarget "MICFlow" */;
 			buildPhases = (
+				89F93ABA9ED49B7C9FACAF93 /* Check Pods Manifest.lock */,
 				57F4F13D1B3C62FE00039B2F /* Sources */,
 				57F4F13E1B3C62FE00039B2F /* Frameworks */,
 				57F4F13F1B3C62FE00039B2F /* Resources */,
+				BDA8CA75E27257A6D0E9196D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +285,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89F93ABA9ED49B7C9FACAF93 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA8CA75E27257A6D0E9196D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MICFlow/Pods-MICFlow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57F4F13D1B3C62FE00039B2F /* Sources */ = {
@@ -408,6 +455,7 @@
 		};
 		57F4F1611B3C62FE00039B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5DE846F9AE02DDA58AE240 /* Pods-MICFlow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -417,7 +465,6 @@
 				);
 				INFOPLIST_FILE = MICFlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MICFlow/MICFlow-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -426,6 +473,7 @@
 		};
 		57F4F1621B3C62FE00039B2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD80213C428E598986CE9B30 /* Pods-MICFlow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -435,7 +483,6 @@
 				);
 				INFOPLIST_FILE = MICFlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MICFlow/MICFlow-Bridging-Header.h";
 			};
