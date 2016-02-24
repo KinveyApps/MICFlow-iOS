@@ -6,6 +6,10 @@ Mobile Identity Connect is a service that bridges mobile applications with exist
 
 ## Prerequisite
 
+1. iOS 8 or later
+2. Xcode 6 or later
+3. Kinvey SDK 1.35 or later
+
 This Kinvey app needs an Enterprise plan. Contact Kinvey sales if you don't have one.
 
 ## Console Set up
